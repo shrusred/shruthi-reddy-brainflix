@@ -1,0 +1,34 @@
+@use '../../styles/partials/breakpoints' as *;
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/mixins' as *;
+
+.desc{
+    @include mob{
+        margin:16x 0 0 0;
+        padding: 0 0 0 3vw;
+        width:80vw;
+        height:40vh;
+        font-size: 16px;
+        font-family: 'Avenir_reg';
+        color: $brainflix-darkblack;
+        line-height: 20px;
+
+    }
+    @include tab{
+        width:70vw;
+        height:10vh;
+        font-size: 22px;
+        font-family: 'Avenir_reg';
+        color: $brainflix-darkblack;
+    }
+    @include des{
+        width:10vw;
+        height:40vh;
+        font-size: 22px;
+        font-family: 'Avenir_reg';
+        color: $brainflix-darkblack;
+
+    }
+}

@@ -1,0 +1,119 @@
+@use '../../styles/partials/breakpoints' as *;
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/mixins' as *;
+
+.title{
+    @include mob{
+        &__heading{
+            border-bottom: 2px solid $mercury;
+            margin-left: 3vw;
+            margin-top: 26px;
+            font-size: 28px;
+            font-family: 'Avenir_bold';
+            padding-bottom: 16px;
+            padding-right: 50%;
+            box-sizing: border-box;
+            line-height: 32px;
+        }
+    }
+}
+
+.subtitle{
+    @include mob{
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        width:98%;
+        height:20vh;
+        border-bottom: 2px solid $mercury;
+        margin-bottom: 50px;
+        margin-left: 3vw;
+        &__uploader{
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+            align-items: center;
+            margin: 0 0 2vh 0;
+            padding: 0 0 0 0.5vw;
+            box-sizing: border-box;
+            width:45%;
+            height:7vh;
+           
+            font-size: 1rem;
+            color: $brainflix-black;
+            font-family: 'Avenir_reg';
+            font-weight: 700;
+        }
+        &__uploaddate{
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+            align-items: center;
+            margin: 0;
+            padding: 0 0 0 0.5vw;
+            box-sizing: border-box;
+            width:45%;
+            height:7vh;
+            
+            font-size: 1rem;
+            color: $silver;
+            font-family: 'Avenir_reg';
+            font-weight: 700;
+        }
+        &__views{
+            margin: 0 0 2vh 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+            align-items: center;
+            width:45%;
+            height:45%;
+           
+            &--number{
+                font-size: 1rem;
+              
+                margin:1vw;
+                color: $silver;
+                font-family: 'Avenir_reg';
+                font-weight: 700;
+            }
+            &--icon{
+                height:2rem;
+                width:2rem;
+               
+                color: $silver;
+            }
+        }
+        &__likes{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+            align-items: center;
+            width:45%;
+            height:45%;
+            
+            &--number{
+                font-size: 1rem;
+                
+                margin:1.5vw;
+                color: $silver;
+                font-family: 'Avenir_reg';
+                font-weight: 700;
+            }
+            &--icon{
+                height:1.7rem;
+                width:1.7rem;
+                
+                color: $silver;
+            }
+        }
+    }
+}

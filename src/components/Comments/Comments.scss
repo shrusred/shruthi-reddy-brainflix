@@ -1,0 +1,15 @@
+@use '../../styles/partials/breakpoints' as *;
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/mixins' as *;
+
+.comments{
+    border-bottom: 2px solid $mercury;
+    &__displaypic{
+        border-radius: 25%;
+        width:2vw;
+        height:2vh;
+        background-color: $mercury;
+    }
+}

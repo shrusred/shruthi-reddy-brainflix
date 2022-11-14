@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Avenir_reg";
+  src: url("../../assets/Font/Alternativefiles/AvenirNextLTPro.ttf") format("TrueType");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avenir_bold";
+  src: url("../../assets/Font/Alternativefiles/AvenirNextLTProBold.ttf") format("TrueType");
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .title__heading {
+    border-bottom: 2px solid #e1e1e1;
+    margin-left: 3vw;
+    margin-top: 26px;
+    font-size: 28px;
+    font-family: "Avenir_bold";
+    padding-bottom: 16px;
+    padding-right: 50%;
+    box-sizing: border-box;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .subtitle {
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 20vh;
+    border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 50px;
+    margin-left: 3vw;
+  }
+  .subtitle__uploader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 2vh 0;
+    padding: 0 0 0 0.5vw;
+    box-sizing: border-box;
+    width: 45%;
+    height: 7vh;
+    font-size: 1rem;
+    color: #323232;
+    font-family: "Avenir_reg";
+    font-weight: 700;
+  }
+  .subtitle__uploaddate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 0 0.5vw;
+    box-sizing: border-box;
+    width: 45%;
+    height: 7vh;
+    font-size: 1rem;
+    color: #AFAFAF;
+    font-family: "Avenir_reg";
+    font-weight: 700;
+  }
+  .subtitle__views {
+    margin: 0 0 2vh 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 45%;
+    height: 45%;
+  }
+  .subtitle__views--number {
+    font-size: 1rem;
+    margin: 1vw;
+    color: #AFAFAF;
+    font-family: "Avenir_reg";
+    font-weight: 700;
+  }
+  .subtitle__views--icon {
+    height: 2rem;
+    width: 2rem;
+    color: #AFAFAF;
+  }
+  .subtitle__likes {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 45%;
+    height: 45%;
+  }
+  .subtitle__likes--number {
+    font-size: 1rem;
+    margin: 1.5vw;
+    color: #AFAFAF;
+    font-family: "Avenir_reg";
+    font-weight: 700;
+  }
+  .subtitle__likes--icon {
+    height: 1.7rem;
+    width: 1.7rem;
+    color: #AFAFAF;
+  }
+}/*# sourceMappingURL=Title.css.map */

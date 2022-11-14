@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Avenir_reg";
+  src: url("../../assets/Font/Alternativefiles/AvenirNextLTPro.ttf") format("TrueType");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avenir_bold";
+  src: url("../../assets/Font/Alternativefiles/AvenirNextLTProBold.ttf") format("TrueType");
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .video {
+    margin-top: 24px;
+  }
+  .video__activevideo {
+    width: 98vw;
+    height: 50vh;
+  }
+}/*# sourceMappingURL=Video.css.map */
