@@ -1,16 +1,14 @@
 ## Layout pseudo code
-<>
-<Header />
-<Row>
-    <Search />
-    <Image />
-</Row>
-<Upload />
-<Video />
-<Title />
-<Description />
-<Comments />
-<NextVideos />
-<>
+## <>
+## <Header />
+## <Row>
+## <Upload />
+## <Video />
+## <Title />
+## <Description />
+## <Comment />
+## <Comments />
+## <NextVideos />
+## <>
 
 
