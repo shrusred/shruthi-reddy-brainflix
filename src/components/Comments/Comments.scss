@@ -6,10 +6,49 @@
 
 .comments{
     border-bottom: 2px solid $mercury;
+    position:relative;
+    height: 30vh;
+    width:70vw;
+    margin-left: 3vw;
     &__displaypic{
-        border-radius: 25%;
-        width:2vw;
-        height:2vh;
+        border-radius: 50%;
+        width:10vh;
+        height:10vh;
         background-color: $mercury;
+        top: 5%;
+        left: 2%;
+        position:absolute;
+    }
+    &__timestamp{
+        color: $silver;
+        position:absolute;
+        right:12%;
+        top: 2%;
+        width:10%;
+        height:12%;
+        font-weight: 450;
+        font-size: 16px;
+    }
+    &__comment{
+        width:60vw;
+        height:60%;
+        position:absolute;
+        font-family: 'Avenir_reg';
+        font-size: 16px;
+        left:15%;
+        top:10%;
+        padding-top: 16px;
+        box-sizing: border-box;
+    }
+    &__name{
+        position:absolute;
+        font-family: 'Avenir_bold';
+        font-size: 16px;
+        width:40%;
+        height:12%;
+        color:$brainflix-darkblack;
+        top: 2%;
+        left: 15%;
+        line-height: 18px;
     }
 }

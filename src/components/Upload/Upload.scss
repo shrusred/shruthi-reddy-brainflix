@@ -37,4 +37,68 @@
             width:5vh;
         }
     }
+    @include tab{
+        margin:-9.5vh 3vw 36px 62vw;
+        position: relative;
+        
+        &__icon{
+            position: absolute;
+            z-index: 2;
+            height:5vh;
+            width:5vh;
+            left:5vw;
+            top:20%;
+        }
+        &__button{
+            width: 20vw;
+            height:9vh;
+            background-color:$brainflix-blue;
+            border: none;
+            border-radius: 0.25rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin-top:16px;
+            margin-left: 3vw;
+            color: $white;
+            font-family: 'Avenir_bold';
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+    @include des{
+        margin:-7vh 3vw 36px 65vw;
+        position: relative;
+        
+        &__icon{
+            position: absolute;
+            z-index: 2;
+            height:5vh;
+            width:5vh;
+            left:5vw;
+            top:20%;
+        }
+        &__button{
+            width: 15vw;
+            height:7vh;
+            background-color:$brainflix-blue;
+            border: none;
+            border-radius: 0.25rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin-top:16px;
+            margin-left: 3vw;
+            color: $white;
+            font-family: 'Avenir_bold';
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
 }

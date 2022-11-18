@@ -1,5 +1,6 @@
 import commentadddp from '../../assets/Images/Mohan-muruge.jpg';
 import '../Comment/Comment.scss'
+import commentaddicon from '../../assets/Icons/add_comment.svg';
 function Comment(props){
     console.log("this is inside comments:",typeof(props.activeVideo.comments))
     return(
@@ -13,7 +14,8 @@ function Comment(props){
             
             <form className="commentadd__submitform">
                 <input className="commentadd__submitform--input" type="text" id="comment" name="comment" placeholder="Add a new comment"></input>
-                <button className="commentadd__submitform--button" type="submit">Comment</button>
+                <button className="commentadd__submitform--button" type="submit">COMMENT</button>
+                <img className="commentadd__submitform--buttonicon" src={commentaddicon}></img>
             </form>
         </div>            
     );  
